@@ -1,0 +1,43 @@
+/* Grundreset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seite */
+body {
+    background-color: #f2f2f2;
+    color: #222;
+    min-height: 100vh;
+}
+
+/* Inhalt zentrieren */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Karte */
+main {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Überschrift */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+/* Text */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
